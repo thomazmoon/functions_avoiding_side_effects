@@ -1,14 +1,22 @@
 ### Task 2: modifying a member of a passed-in array
 
-When a function modifies a member of a passed-in array, this creates a side-effect that isn't discernible just by inspecting the return value. This is potentially confusing.
+Let's say a function accepts an array of values.
+
+If the function changes the elements of this passed-in array, this fact is not obvious from outside the function.
+
+I.e., doing so creates a side-effect, there is a result of calling this function that isn't discernible just by inspecting the function's return value.
+
+Functions whose return values fully represent the result are easier to reason about.
 
 ### What to do
 
-Reorganize the given function such that a new array is returned. This way, what the function does is completely understood just from the return value.
+Reorganize the given function such that a new array is returned.
+
+This way, what the function does is completely understood just from the return value.
 
 #### Step 1
 
-Let's assume you are writing flashcard study software.
+Let's assume you are writing flashcard study software such as [Anki](https://www.ankiapp.com/).
 
 Your function will receive a deck of flashcards, and based on some simple [spaced repetition algorithm](https://en.wikipedia.org/wiki/Spaced_repetition), it will mark a future time when each card should be presented for review.
 
