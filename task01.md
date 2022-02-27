@@ -7,7 +7,7 @@ Reorganize the given function into two functions, one to perform the processing 
 
 #### Step 1
 
-Let's assume you are writing e-commerce software, so you deal with orders.
+Let's assume you are writing e-commerce software such as [Shopify](https://www.shopify.com/), so you deal with orders.
 
 First, write code to do this:
 
