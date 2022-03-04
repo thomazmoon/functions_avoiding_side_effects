@@ -12,7 +12,9 @@ Functions whose return values fully represent the result are easier to reason ab
 
 Reorganize the given function such that a new array is returned.
 
-This way, what the function does is completely understood just from the return value.
+This way, what the function does is completely understood just from the return value.  
+
+The main purpose of this exercise is to see the effects of  
 
 #### Step 1
 
@@ -28,7 +30,8 @@ Your function will receive a deck of flashcards, and based on some simple [space
 
 function markReviewTimes(deck) {
     // for each card
-        // calculate the next-review datetime based on some criteria of your choice
+        // calculate the next-review datetime based on some criteria of your choice  
+            // (i.e. if correct show tomorrow, else show up again in 10 minutes)
         // update the card to record this value
     // return the deck, or nothing (your choice)
 }
