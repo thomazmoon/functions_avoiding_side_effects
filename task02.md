@@ -28,7 +28,8 @@ Your function will receive a deck of flashcards, and based on some simple [space
 
 function markReviewTimes(deck) {
     // for each card
-        // calculate the next-review datetime based on some criteria of your choice
+        // calculate the next-review datetime based on some criteria of your choice  
+            // (i.e. if correct show tomorrow, else show up again in 10 minutes)
         // update the card to record this value
     // return the deck, or nothing (your choice)
 }
