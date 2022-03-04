@@ -3,7 +3,7 @@
 One function which does both data processing and also renders UI is often doing too many things.
 
 ### What to do
-Reorganize the given function into two functions, one to perform the processing and one to perform the rendering.
+Reorganize the given function into two functions, one to perform the processing **and** one to perform the UI rendering.
 
 #### Step 1
 
@@ -19,7 +19,7 @@ function printAverageOrderValue(orders) {
 	// Reduce orders to an integer of average order value in cents,
     // rounded down to the closest cent.
 
-	// Print this amount to the console.
+	// Print this amount to the UI console.
 }
 ```
 
